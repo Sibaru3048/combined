@@ -1,4 +1,6 @@
-fastapi
-torch
-transformers
-uvicorn
+fastapi              # FastAPI 웹 프레임워크
+uvicorn              # FastAPI 애플리케이션 실행 서버
+transformers         # Hugging Face 모델 활용
+torch                # PyTorch, Hugging Face 모델에 필수
+pydantic             # 데이터 검증 및 스키마 정의 (FastAPI 내장)
+sentencepiece        # PegasusTokenizer 및 기타 모델에 필수
